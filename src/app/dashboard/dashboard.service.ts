@@ -11,7 +11,7 @@ export class DashboardService {
     private http: HttpClient
   ) {}
 
-  readonly baseUrl = 'http://localhost:8080/bootcamp';
+  readonly baseUrl = 'https://sawcunhadev-week-dio-santander.herokuapp.com/bootcamp';
 
   async getStockAll(): Promise<Stock[]>{
     return this.http.get<Stock[]>(`${this.baseUrl}/stock`).toPromise();
