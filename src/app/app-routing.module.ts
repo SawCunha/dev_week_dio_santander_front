@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardPagaTodayComponent } from './dashboard/dashboard-paga-today/dashboard-paga-today.component';
 
 const routes: Routes = [
-  { path: '', component: DashboardPageComponent },
-  { path: 'today', component: DashboardPagaTodayComponent },
+  { path: 'all', component: DashboardPageComponent },
+  { path: '', component: DashboardPagaTodayComponent },
 ];
 
 @NgModule({
